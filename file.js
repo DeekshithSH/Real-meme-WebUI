@@ -1,7 +1,7 @@
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
 const dl_div = document.getElementById("dl_div")
-baseurl = "https://deadapi.eu.org"
+baseurl = "https://rem.deadbots.eu.org/api"
 
 console.log(params)
 id = params.id
