@@ -15,7 +15,7 @@ function hideClass(id_name) {
 }
 
 
-baseurl="https://rem.deadbots.eu.org/api"
+baseurl = `${window.location.protocol}://${window.location.host}/api`
 async function main() {
     try {
         FormDevice.innerHTML=`<option value="none">Select Device</option>`
