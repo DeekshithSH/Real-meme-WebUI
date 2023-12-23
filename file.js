@@ -13,7 +13,7 @@ async function main() {
     const data = await response.json();
 
     var script = document.createElement("script");
-    script.src = "https://deekshithsh.github.io/deadbots.eu.org/telegram-widget.js";
+    script.src = "https://deekshith.eu.org/deadbots.eu.org/telegram-widget.js";
     script.setAttribute("data-telegram-post", `${data["channel_username"]}/${data["msg_id"]}`);
     script.setAttribute("data-userpic", "true")
     script.setAttribute("data-width", "100%");
